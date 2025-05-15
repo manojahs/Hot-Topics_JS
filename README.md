@@ -99,5 +99,50 @@ Handling window resize or scroll events efficiently.
 How do you prevent default behavior in an event?
 Ans: event.preventDefault();
 
+Session storage vs Localstorage vs cookies
+-----------------------------------------------
+
+localStorage
+---------------------
+Key Characteristics:
+
+Persists indefinitely until explicitly cleared
+Stores approximately 5-10MB of data (varies by browser)
+Never sent to the server automatically
+Same-origin policy (domain, protocol, port)
+Synchronous API
+
+Shared storage space:
+---------------------
+All tabs/windows from the same domain access the same localStorage repository
+
+Real-time updates: Changes made in one tab can be detected in other open tabs/windows
+
+Same-origin requirement:The sharing only works within the same domain, protocol (HTTP/HTTPS), and port
+
+ sessionStorage:
+-------------------------------------------
+
+Tab-specific storage: Each tab or window has its own separate sessionStorage instance
+
+No cross-tab sharing: Data stored in sessionStorage is strictly confined to the tab where it was created
+
+New tab = empty sessionStorage: Opening a new tab creates a fresh, empty sessionStorage, even if navigating to the same site
+
+Duplicating tabs: Even when duplicating a tab (e.g., right-click > "Duplicate"), the new tab gets a fresh sessionStorage
+
+Cookies
+----------------------
+Key Characteristics:
+
+Configurable expiration (session or specific date)
+Small capacity (4KB total for all cookies per domain)
+Automatically sent with every HTTP request to the domain
+Can be restricted to specific paths
+Can be marked as HTTP-only (inaccessible to JavaScript)
+Can be marked as Secure (only sent over HTTPS)
+Can be set with SameSite attribute (CSRF protection)
+
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/d3296b00-fa04-4cba-8e2e-6495732d02be" />
 
 
