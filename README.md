@@ -160,5 +160,5 @@ Its the propagation model where events are handled from outer most element to in
 
 2) what are IIFLE (immediate invoke function expression)
 ---------------------------------------------------------
-
+An IIFE (Immediately Invoked Function Expression) in JavaScript is a function that runs as soon as it is defined. 
 
