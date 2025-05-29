@@ -162,3 +162,10 @@ Its the propagation model where events are handled from outer most element to in
 ---------------------------------------------------------
 An IIFE (Immediately Invoked Function Expression) in JavaScript is a function that runs as soon as it is defined. 
 
+(function() {
+  // Code inside here runs immediately
+  console.log("IIFE executed!");
+})();
+
+3) What is closure?
+
