@@ -145,4 +145,20 @@ Can be set with SameSite attribute (CSRF protection)
 
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/d3296b00-fa04-4cba-8e2e-6495732d02be" />
 
+1) What are Event bubble and Event capture in js
+
+Event Bubbling
+--------------
+Its the propagation model where events are handled from inner most element to outermost element
+
+Event Capturing(Trickling)
+---------------------------
+Its the propagation model where events are handled from outer most element to inner most element
+
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/cfb2c4d8-e4bb-44fb-90d0-eac737ebef0c" />
+
+
+2) what are IIFLE (immediate invoke function expression)
+---------------------------------------------------------
+
 
