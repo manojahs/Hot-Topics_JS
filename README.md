@@ -217,3 +217,21 @@ In JavaScript, a Promise is an object that represents the eventual completion (o
 
 They help manage asynchronous code more cleanly than callbacks, especially when chaining multiple operations.
 
+let promise = new Promise(function(resolve, reject) {
+  // Do something async
+  if (/* success */) {
+    resolve("Success!");
+  } else {
+    reject("Error!");
+  }
+});
+
+promise
+  .then(function(result) {
+    console.log("Resolved:", result);
+  })
+  .catch(function(error) {
+    console.log("Rejected:", error);
+  });
+
+
