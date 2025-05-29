@@ -169,3 +169,8 @@ An IIFE (Immediately Invoked Function Expression) in JavaScript is a function th
 
 3) What is closure?
 A closure in JavaScript is a powerful concept where a function remembers the variables from its lexical scope, even after that scope has exited.
+
+Why Are Closures Useful?
+Data privacy: You can create private variables.
+Function factories: Generate customized functions.
+Callbacks and event handlers: Maintain state between calls.
