@@ -210,3 +210,7 @@ console.log("hi")
 //hi
 //hi for every 2 sec
 
+What are promises in js
+-------------------------
+
+
