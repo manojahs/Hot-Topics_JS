@@ -234,4 +234,10 @@ promise
     console.log("Rejected:", error);
   });
 
+ Promise States
+ -----------------
+Pending – Initial state, neither fulfilled nor rejected.
+Fulfilled – Operation completed successfully.
+Rejected – Operation failed.
 
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/20816d4f-1248-49c9-ae84-cee4fb5681b2" />
