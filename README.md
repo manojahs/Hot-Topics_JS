@@ -174,3 +174,17 @@ Why Are Closures Useful?
 Data privacy: You can create private variables.
 Function factories: Generate customized functions.
 Callbacks and event handlers: Maintain state between calls.
+
+function outer() {
+  let count = 0;
+
+  return function inner() {
+    count++;
+    console.log("Count:", count);
+  };
+}
+
+const counter = outer();
+counter(); // Count: 1
+counter(); // Count: 2
+
