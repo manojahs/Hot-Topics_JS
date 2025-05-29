@@ -188,3 +188,25 @@ const counter = outer();
 counter(); // Count: 1
 counter(); // Count: 2
 
+4) SetTimeOut vs SetTimeInterval()
+
+SetTimeOut()
+---------------
+Used to execute the function after some specific delay
+SetTimeOut(()=>{
+console.log("hi")
+},2000);
+
+//hi
+
+SetTimeInterval()
+-----------
+Used to Execute the function repeatedly at specified interval
+
+SetTimeInterval(()=>{
+console.log("hi")
+},2000);
+
+//hi
+//hi for every 2 sec
+
