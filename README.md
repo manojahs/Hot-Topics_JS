@@ -168,4 +168,4 @@ An IIFE (Immediately Invoked Function Expression) in JavaScript is a function th
 })();
 
 3) What is closure?
-
+A closure in JavaScript is a powerful concept where a function remembers the variables from its lexical scope, even after that scope has exited.
