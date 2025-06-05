@@ -241,3 +241,16 @@ Fulfilled – Operation completed successfully.
 Rejected – Operation failed.
 
 <img width="538" alt="image" src="https://github.com/user-attachments/assets/20816d4f-1248-49c9-ae84-cee4fb5681b2" />
+
+Event Bundling and Event Capturing
+----------------------------------
+| Feature   | Description                 | How to Use                               |
+| --------- | --------------------------- | ---------------------------------------- |
+| Capturing | Top → Target                | `addEventListener(..., true)`            |
+| Bubbling  | Target → Top                | `addEventListener(..., false)` (default) |
+| Stop Flow | Prevent further propagation | `event.stopPropagation()`                |
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/5b592820-2b3d-439d-a491-679f43523c2e" />
+
+
+
