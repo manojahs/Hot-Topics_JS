@@ -1,4 +1,5 @@
 # Hot-Topics_JS
+```
 ----------------------
 Serialization and deserialization in js
 ------------------------------
@@ -251,6 +252,7 @@ Event Bundling and Event Capturing
 | Stop Flow | Prevent further propagation | `event.stopPropagation()`                |
 
 <img width="383" alt="image" src="https://github.com/user-attachments/assets/5b592820-2b3d-439d-a491-679f43523c2e" />
+```
 
 
 
